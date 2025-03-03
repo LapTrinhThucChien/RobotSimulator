@@ -9,7 +9,7 @@ The available commands include placing the robot, moving, rotating left/right, a
 
 🛠️ Installation & Setup
 
-Clone the Repository: 
+Clone the Repository:  https://github.com/LapTrinhThucChien/RobotSimulator.git
 
 By default, the application reads from commands.txt. Ensure this file exists in the project root
 
