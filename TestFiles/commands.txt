@@ -1,0 +1,58 @@
+﻿Input:
+PLACE 1,2,EAST
+MOVE
+MOVE
+LEFT
+MOVE
+REPORT
+
+Output: 3,3,NORTH
+
+Input:
+PLACE 0,0,NORTH
+MOVE
+PLACE 4,4,SOUTH
+MOVE
+REPORT
+
+Output: 4,3,SOUTH
+
+Input:
+MOVE
+LEFT
+REPORT
+PLACE 2,2,WEST
+REPORT
+
+Output: 2,2,WEST
+
+Input:
+PLACE -1,0,NORTH
+PLACE 0,6,SOUTH
+PLACE 3,3,WEST
+REPORT
+
+Outpit: 3,3,WEST
+
+Input:
+PLACE 1,1,UP
+PLACE 2,2,NORTH
+REPORT
+
+Output: 2,2,NORTH
+
+
+Input:
+PLACE 0,0,NORTH
+MOVE
+MOVE
+MOVE
+MOVE
+MOVE
+REPORT
+
+Output: 0,4,NORTH
+
+
+How to Use These Tests
+Save each test case as a separate .txt file and run project

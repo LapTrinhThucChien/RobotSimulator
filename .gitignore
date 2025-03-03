@@ -1,0 +1,49 @@
+# Visual Studio and VS Code specific files
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+out/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# User-specific files
+*.rsuser
+*.ide
+
+# Logs
+*.log
+logs/
+
+# Packages
+packages/
+*.nupkg
+*.snupkg
+.nuget/
+
+# Test results
+TestResults/
+*.TestResults/
+coverage/
+*.coverage
+*.coveragexml
+*.cov
+
+# Environment and secrets
+.env
+secrets.json
+
+# Dependency caching
+node_modules/
+
+git rm -r --cached .vs/
+git commit -m "Removed unnecessary .vs files"
+git push origin main
